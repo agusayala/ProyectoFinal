@@ -1,0 +1,212 @@
+.logo a {
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.navbar-items {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.navbarbgtop {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.4542191877) 27%, rgba(0, 0, 0, 0) 100%);
+}
+
+.carousel-item {
+  background-size: cover;
+  height: 85vh;
+}
+.carousel-item img {
+  height: 100vw;
+  width: 100vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media (max-width: 650px) {
+  .carousel-item {
+    height: 50vh;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+.suc {
+  text-align: center;
+  color: black;
+  font-family: sans-serif;
+  font-size: 170%;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.card {
+  border: none;
+}
+
+h3 {
+  text-align: center;
+  color: black;
+  font-family: sans-serif;
+  margin-bottom: 50px;
+  margin-top: 200px;
+}
+
+.video {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer {
+  position: relative;
+  bottom: 0px;
+  width: 100%;
+  background-color: black;
+}
+footer .center .content .bi {
+  font-size: 1.5rem;
+  background-color: black;
+  height: 25px;
+  width: 35px;
+  line-height: 45px;
+  text-align: center;
+  border-radius: 50%;
+  transition: 0.3s;
+  cursor: pointer;
+}
+footer .center .content .bi:hover {
+  background: rgb(207, 169, 137);
+}
+footer .center .content .text {
+  font-size: 1.06rem;
+  font-weight: 500;
+  padding-left: 10px;
+}
+footer .center .content .telefono {
+  margin: 10px 0;
+}
+footer .main-content {
+  display: flex;
+}
+footer .main-content .box {
+  flex-basis: 50%;
+  padding: 10px 20px;
+}
+footer .main-content .box h2 {
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+footer .main-content .box .content {
+  margin: 20px 0 0 0;
+  position: relative;
+}
+footer .main-content .box .content:before {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 100%;
+  background-color: rgb(87, 79, 79);
+  margin-bottom: 5%;
+}
+footer .left .content .social {
+  margin: 20px 0 0 0;
+}
+footer .left .content .social a {
+  padding: 0 2px;
+}
+footer .right form .text {
+  font-size: 1.06rem;
+  margin-bottom: 2px;
+  color: rgb(54, 51, 51);
+}
+footer .right form .msg {
+  margin-top: 10px;
+}
+footer .right form input, footer .right form textarea {
+  width: 100%;
+  font-size: 1.06rem;
+  background-color: black;
+  padding-left: 10px;
+  border: 1px solid gray;
+}
+footer .right form input, footer .right form textarea:focus {
+  outline-color: rgb(207, 169, 137);
+}
+footer .right form input {
+  height: 35px;
+}
+footer .right form .btn {
+  width: 100%;
+  border: none;
+  background-color: black;
+  font-size: 1.06rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s;
+}
+footer .right form .btn .btn:hover {
+  background-color: rgb(207, 169, 137);
+}
+footer .bottom center {
+  padding: 5px;
+  font-size: 1rem;
+  color: grey;
+}
+footer .bottom center span {
+  color: grey;
+}
+footer .bottom center a {
+  color: rgb(207, 169, 137);
+  text-decoration: none;
+}
+footer .bottom center a:hover {
+  text-decoration: underline;
+}
+@media screen and (max-width: 800px) {
+  footer footer {
+    position: relative;
+    bottom: 0px;
+  }
+  footer .main-content {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  footer .main-content .box {
+    margin: 5px 0;
+  }
+}
+
+.mapapa {
+  width: 100%;
+  height: 100vh;
+}
+
+.botonrose {
+  background-color: rgb(207, 169, 137);
+}
+
+.botonrose:hover {
+  background-color: black;
+  color: white;
+}
+
+.card img {
+  width: auto;
+  height: 450px;
+}
+
+.talles {
+  display: flex;
+  justify-content: center;
+}
+.talles img {
+  width: 70vh;
+  height: auto;
+}/*# sourceMappingURL=estilos.css.map */
